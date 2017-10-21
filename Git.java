@@ -27,5 +27,9 @@ public class Git {
          
         
         System.out.println("Resultado de bascara: \n X1 = "+x1+"\n X2 = "+
+		
+		double catA = Integer.parseInt(JOptionPane.showInputDialog("Informe Numero cateto A"));
+        double catB = Integer.parseInt(JOptionPane.showInputDialog("Informe Numero cateto B"));
+        System.out.println("Hipotenusa = "+Math.sqrt((catA*catA)+(catB*catB)
     
 }
