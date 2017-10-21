@@ -11,5 +11,12 @@ public class Git {
             System.out.println(numero+" x "+i+" = "+numero*i);
         }
     }
+	
+	numero = Integer.parseInt(JOptionPane.showInputDialog("Informe Numero"));
+        int resultadoFatorial=1;
+        for (int i = 1; i<=numero; i++){
+            resultadoFatorial*=i;
+        }
+        System.out.println("Resultado Fatorial: "+resultadoFatorial);
     
 }
