@@ -18,5 +18,14 @@ public class Git {
             resultadoFatorial*=i;
         }
         System.out.println("Resultado Fatorial: "+resultadoFatorial);
+		
+		int a = Integer.parseInt(JOptionPane.showInputDialog("Informe Numero A"));
+        int b = Integer.parseInt(JOptionPane.showInputDialog("Informe Numero B"));
+        int c = Integer.parseInt(JOptionPane.showInputDialog("Informe Numero C"));
+        double x1 = (-b +Math.sqrt((b*b*(-4*a*c))))/2*a;
+        double x2 = (-b -Math.sqrt((b*b*(-4*a*c))))/2*a;
+         
+        
+        System.out.println("Resultado de bascara: \n X1 = "+x1+"\n X2 = "+
     
 }
